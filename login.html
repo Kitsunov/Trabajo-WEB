@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="Logo.ico"/>
+
+    <style>
+        body {
+            background: rgb(255, 0, 0);
+            background: linear-gradient(to right, rgb(241, 11, 11), rgb(65, 67, 179));
+        }
+
+        .bg {
+            background-image: url(img/Presentacion-1.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+
+<body>
+   
+    <div class="container w-75 bg-primary mt-5 rounded">
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+            </div>
+            <div class="col bg-white p-5 rounded-end">
+                <div class="text-end">
+                    <img src="img/Logo_Tai_Paper.jpg" width="50" alt="" />
+                </div>
+                <h2 class="fs-bold text-center p-5">Bienvenido</h2>
+                
+               
+                   
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" name="email" placeholder="ingrese su correo" required />
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password" placeholder="ingrese su clave" required/>
+                    </div>
+                    <div class="mb-4">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <Label for="connected" class="form-check-label">Mantenerme conectado</Label>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                    </div>
+                    <div class="my-3">
+                        <span>no tienes cuenta? <a href="http://">Registrate</a></span><br />
+                        <span "><a href=" http://""></a>Recuperar contraseña</span>
+                    </div>
+             
+
+                <!--LOGIN CON REDES SOCIALES-->
+                <div class="container w-100 my-5">
+                    <div class="row text-center">
+                        <div class="col-12">Iniciar sesión</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-outline-primary w-100 my-1">
+                                <div class="row align-items-center">
+                                    <div class="col-2 d-none d-md-block">
+                                        <img src="img/fb.png" width="32">
+                                    </div>
+                                    <div class="col-12 col-md-10 text-center">
+                                        Facebook
+                                    </div>
+                                </div>
+
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-outline-danger w-100 my-1">
+                                <div class="row align-items-center">
+                                    <div class="col-2 d-none d-md-block">
+                                        <img src="img/Gmail.PNG" width="32">
+                                    </div>
+                                    <div class="col-12 col-md-10 text-center">
+                                        Gmail
+                                    </div>
+                                </div>
+
+                            </button>
+                        </div>
+
+                        <div class="d-grid">
+                            <button class="btn btn-outline-success w-100 my-1">
+                                <div class="row align-items-center">
+                                    <div class="col-2 d-none d-md-block">
+                                        <img src="img/ws.PNG" width="32">
+                                    </div>
+                                    <div class="col-12 col-md-10 text-center">
+                                        Whatsapp
+                                    </div>
+                                </div>
+
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
